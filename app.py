@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 ### Define a route
 @app.route('/', methods=['GET'])
-def hello_world():
-    return render_template('index.html')
+def life_is_beautiful():
+    return "Life is beautiful!"
 
 ### Run on port 5000
 if __name__ == '__main__':
